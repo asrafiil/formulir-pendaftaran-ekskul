@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+`	<title>pengumuman resmi sekolah</title>
+	<!-- Menghubungkan file HTML dengan file css eksternal -->
+	<link rel="stylesheet" href="style.css>
+</head>
+<body>
+	<!-- kotak kontainer pengumuman -->
+	<div class="announcement-card">
+
+	   <!-- badge kategori -->
+	   <span class="badge-urgent"> info penting PWDPB</span>
+
+	   <!-- judul pengumuman -->
+`	   <h1>jadwal pengumpulan proyek web HTML & CSS</h1>
+
+	   <-- tanggal / meta info -->
+	   <p class="date"> batas akhir: kamis, 06 agustus 2026</p>
+
+	   <!-- paragraf pengantar -->
+	   <p class="description">
+		diberitahukan kepada seluruh siswa XI RPL, bahwa proyek pembuatan halaman web mini wajib dikumpulkan tepat waktu dengan ketentuan berikut:
+	   </p>
+
+	   <!-- daftar poin penjelas -->
+	   <ul class="guidelines">
+		<li>struktur folder wajib memisahkan file <strong>index>.html</strong> dan <strong>style.css</strong>.</li>
+		<li>dilarang melakukan salin-tempel (plagiat) kode milik teman sekelas.</li>
+		<li>>unggah arsip folder (.zip) ke google drive kelas masing-masing.</li>
+	   </ul>
+
+	   <!-- Tombol Aksi -->
+           div class="action-box">
+               <a hreaf="#" class="btn-download"> unduh format penilaian</a>
+
+
+
+		
