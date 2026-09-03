@@ -1,45 +1,37 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="text.css">
-    <title>Pendaftaran Futsal</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Digital Profile Card</title>
+	<!-- Menghubungkan file HTML dengan file CSS eksternal -->
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+	<!-- Kartu kontainer utama -->
+	<div class="profile-card">
 
-    <div class="profile-card">
-        
-        <div class="form-header">
-            
-            <span class="badge">ATLET ??</span>
-            <h2>Join SPORT CLUB</h2>
-            <p>join dan menjadi seorang atlet!</p>
-        </div>
+		<!-- Badge status aktif -->
+		<span class="badge">ready to code</span>
 
-        <form>
-            <div class="Input-Group">
-                <label for="nama">Nama Lengkap</label>
-            
-                <input type="text" id="nama" placeholder="AFLAH ATAU FATHIR" required>
-            </div>
+		<!-- Foto profil -->
+		<img src="https://img.a.transfermarkt.technology/portrait/big/8198-1748102259.jpg?lm=1">
 
-            <div class="Input-Group">
-                <label for="kelas">Kelas</label>
-                <input type="text" id="kelas" placeholder="XI RPL" required>
-            </div>
+		<!-- Nama & peran -->
+		<h1>aploy dan fathir ganteng</h1>
+		<p class="role">UI/UX Designer & Student RPL</p>
+		
+		<!-- Bio / Deskripsi singkat -->
+		<p class="bio">main futsal.</p>
 
-            
-            <div class="Input-Group">
-                <label for="alasan">Ingin masuk Futsal?</label>
-                <textarea id="alasan" rows="3" placeholder="Tulis alasanmu di sini" required></textarea>
-            </div>
+		<!-- Tombol Aksi / Media Sosial -->
+		<div class="social-links">
+			<a href="#" class="btn github">Github</a>
+			<a href="#" class="btn instagram">Instagram</a>
+		</div>
 
-            <button type="submit" class="btn btn-submit">Kirim Pendaftaran</button>
-        </form>
-
-    </div>
+	</div>
 
 </body>
 </html>
